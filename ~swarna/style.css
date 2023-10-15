@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.swarna {
+  text-align: center;
+}
+
+h1 {
+  color:green;
+}
+
+.calc{
+  display: grid;
+  grid-template-columns: repeat();
+  grid-template-rows: auto 1fr;
+  grid-gap: 10px;
+  max-width: 1000px;
+  max-height: 60px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.display {
+  grid-column: span 4;
+  background: white;
+  text-align: right;
+  padding: 10px;
+  font-size: 1.5em;
+  border-bottom: 7px solid black;
+}
+
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+button {
+  flex: 1 0 calc(25% - 10px);
+  margin: 20px;
+  padding:20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  border-radius:8px;
+}
+
+.hi {
+  background-color: black;
+  color:whitesmoke;
+  padding-right:25px;
+  padding-left: 25px;
+}
+.hello {
+  background-color: black;
+  color:whitesmoke;
+  padding-right:25px;
+  padding-left: 25px;
+}
+.hii{
+  background-color: red;
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hlo{
+  background-color:green;
+  color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
